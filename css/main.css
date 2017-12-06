@@ -79,7 +79,8 @@ nav{
     margin-left: 1em;
     border-radius: 0.5em;
 }
-.rateInput::-webkit-input-placeholder { color: white; }
+.rateInput::-webkit-input-placeholder{      color: white;
+}
 .rateInput::-moz-placeholder {
     color: white;
 }
@@ -125,4 +126,26 @@ i{
 }
 .input-group{
     margin-bottom: 1em;
+}
+.modal-header>img{
+    width: 50%;
+}
+.modal-body>p{
+    margin-top: 1em;
+}
+.container-flex{
+    display: flex;
+    justify-content: center;
+}
+.container-flex>*{
+    flex: 1 100%;
+}
+form>*{
+    margin-bottom: 1em;
+}
+.halfSize{
+    width: 50%;
+}
+h3{
+    color: #F7B617; 
 }
